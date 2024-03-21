@@ -13,5 +13,6 @@ This documentation is intended to allow other researchers to replicate the entir
 
 # Rack Mount Setup
 
+![rack mount configuration](https://raw.githubusercontent.com/lafefspietz/jjiv/main/images/rackmount-configuration.pn)
 
-   
+![]()  
