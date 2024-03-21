@@ -25,5 +25,11 @@ The room temperature box which connects the BNC cables to the twisted pair wirin
 
 ![](https://raw.githubusercontent.com/lafefspietz/jjiv/main/images/rackmount-warm-box.png)   
 
-The DIN rail to rack mount adapter is a product from 
+The DIN rail to rack mount adapter shown below is a product which appears to only be available right now [from Amazon](https://www.amazon.com/WatchfulEyE-Mounting-Bracket-Aluminum-Oxidation/dp/B08F4WQX1Z) 
+
+[![](https://raw.githubusercontent.com/lafefspietz/jjiv/main/images/din-rail-amazon.png)](https://www.amazon.com/WatchfulEyE-Mounting-Bracket-Aluminum-Oxidation/dp/B08F4WQX1Z)  
+
+The BUD box is attached to the DIN rail using DIN rail clips available from Digikey and screws available from Amazon. Click on the images below to buy.  
+  
+
    
