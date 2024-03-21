@@ -13,6 +13,17 @@ This documentation is intended to allow other researchers to replicate the entir
 
 # Rack Mount Setup
 
-![rack mount configuration](https://raw.githubusercontent.com/lafefspietz/jjiv/main/images/rackmount-configuration.pn)
+![](https://raw.githubusercontent.com/lafefspietz/jjiv/main/images/rackmount-configuration.png)
 
-![]()  
+Off the shelf components include:
+
+  - Two [Stanford Research Systems SR560 low voltage pre amplifiers](https://www.thinksrs.com/products/sr560.htm)
+  - One [Yokogawa GS200 DC Voltage / Current Source](https://tmi.yokogawa.com/us/solutions/products/generators-sources/source-measure-units/gs200/)
+  - Two [Keithley 2010 digital multimeters](https://www.tek.com/en/products/keithley/digital-multimeter/2010-series)
+
+The room temperature box which connects the BNC cables to the twisted pair wiring in the dilution refrigerator has DIN rail clips on the back of it so that it can be mounted on either  a DIN rail on the frame of the firdge or a DIN rail mounted in a rack mount as shown below:
+
+![](https://raw.githubusercontent.com/lafefspietz/jjiv/main/images/rackmount-warm-box.png)   
+
+The DIN rail to rack mount adapter is a product from 
+   
