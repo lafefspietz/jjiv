@@ -11,6 +11,10 @@ The system consists of a programmable voltage source, a pair of volt meters, a p
 
 This documentation is intended to allow other researchers to replicate the entire set of components to make a turnkey system for taking IV curves of low critical current Josephson Junctions at dilution refrigerator temperatures.  We will be releasing python code in the form of Jupyter notebooks which will allow researchers to copy exactly our measurement protocol, increasing replicability in JJ IV curve measurements.
 
+# System Schematic
+
+![](https://raw.githubusercontent.com/lafefspietz/jjiv/main/images/system-schematic.png)
+
 # Rack Mount Setup
 
 ![](https://raw.githubusercontent.com/lafefspietz/jjiv/main/images/rackmount-configuration.png)
