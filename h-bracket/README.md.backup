@@ -1,3 +1,5 @@
+## [Back to Main JJIV](../)
+
 
 ![](images/qrcode.png)
 ![](images/qrcode-page.png)
@@ -14,6 +16,8 @@ Several of these were ordered from PcbWay in the spring of 2024 at NIST.  In our
 
 These brackets are designed to be connected to the rest of an experiment via quarter inch 4-40 socket cap screws like the [brass ones from McMaster here](https://www.mcmaster.com/57185A11/). The screws are inset into the holes so that heads disappear, allowing the bracket to sit flush against the plate in the fridge with the heads facing the plate.   
 
+
+To get these made, you will need the .step file below to get a quote, and the drawing in the .pdf can also help but is often optional. 
 
 ## Files
 
