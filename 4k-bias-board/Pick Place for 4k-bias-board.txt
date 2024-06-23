@@ -1,0 +1,43 @@
+Altium Designer Pick and Place Locations
+Z:\lafe\hot-qubit-iv-curve-tracer\pcb\4k-bias-board\Project Outputs for 4k-bias-board\Pick Place for 4k-bias-board.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       13/03/24
+Time:       14:51
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mil
+
+Designator Comment          Layer    Footprint            Center-X(mil) Center-Y(mil) Rotation Description                                    
+J6         "6 pos header"   TopLayer 6_pin_header         725.000       325.000       180      "CONN HEADER VERT 6POS 2.54MM - MTA100 Series" 
+J5         "6 pos header"   TopLayer 6_pin_header         725.000       125.000       180      "CONN HEADER VERT 6POS 2.54MM - MTA100 Series" 
+J4         "6 pos header"   TopLayer 6_pin_header         725.000       1675.000      0        "CONN HEADER VERT 6POS 2.54MM - MTA100 Series" 
+J3         "6 pos header"   TopLayer 6_pin_header         725.000       1875.000      0        "CONN HEADER VERT 6POS 2.54MM - MTA100 Series" 
+J2         DCCM25PBSP       TopLayer BEL_DCCM25PBSP       1850.000      975.000       270      "Commercial PCB Mount Connector"               
+J1         M83513/25-D01CP  TopLayer BEL_M83513/25-D01CP  225.000       975.000       90       "MIL-DTL-83513 PCB Mounted Connector"          
+R24        RC0603FR-0710KL  TopLayer FP-RC0603-0_55-IPC_C 976.642       1300.000      0        "RES 10K OHM 1% 1/10W 0603"                    
+R23        RC0603FR-0710KL  TopLayer FP-RC0603-0_55-IPC_C 975.000       1375.000      0        "RES 10K OHM 1% 1/10W 0603"                    
+R22        RC0603FR-0710KL  TopLayer FP-RC0603-0_55-IPC_C 825.000       1375.000      0        "RES 10K OHM 1% 1/10W 0603"                    
+R21        RC0603FR-0710KL  TopLayer FP-RC0603-0_55-IPC_C 550.000       1400.000      0        "RES 10K OHM 1% 1/10W 0603"                    
+R20        RC0603FR-07100RL TopLayer FP-RC0603-0_55-MFG   675.000       1375.000      0        ""                                             
+R19        RC0603FR-07100RL TopLayer FP-RC0603-0_55-MFG   675.000       1500.000      180      ""                                             
+R18        RC0603FR-0710KL  TopLayer FP-RC0603-0_55-IPC_C 825.000       1500.000      0        "RES 10K OHM 1% 1/10W 0603"                    
+R17        RC0603FR-0710KL  TopLayer FP-RC0603-0_55-IPC_C 550.000       1475.000      0        "RES 10K OHM 1% 1/10W 0603"                    
+R16        RC0603FR-0710KL  TopLayer FP-RC0603-0_55-IPC_C 950.000       975.000       0        "RES 10K OHM 1% 1/10W 0603"                    
+R15        RC0603FR-0710KL  TopLayer FP-RC0603-0_55-IPC_C 950.000       1050.000      0        "RES 10K OHM 1% 1/10W 0603"                    
+R14        RC0603FR-0710KL  TopLayer FP-RC0603-0_55-IPC_C 825.000       1075.000      0        "RES 10K OHM 1% 1/10W 0603"                    
+R13        RC0603FR-0710KL  TopLayer FP-RC0603-0_55-IPC_C 575.000       1100.000      0        "RES 10K OHM 1% 1/10W 0603"                    
+R12        RC0603FR-07100RL TopLayer FP-RC0603-0_55-MFG   708.464       1075.000      0        ""                                             
+R11        RC0603FR-07100RL TopLayer FP-RC0603-0_55-MFG   700.000       1225.000      180      ""                                             
+R10        RC0603FR-0710KL  TopLayer FP-RC0603-0_55-IPC_C 825.000       1225.000      0        "RES 10K OHM 1% 1/10W 0603"                    
+R9         RC0603FR-0710KL  TopLayer FP-RC0603-0_55-IPC_C 575.000       1175.000      0        "RES 10K OHM 1% 1/10W 0603"                    
+R8         RC0603FR-0710KL  TopLayer FP-RC0603-0_55-IPC_C 775.000       725.000       0        "RES 10K OHM 1% 1/10W 0603"                    
+R7         RC0603FR-0710KL  TopLayer FP-RC0603-0_55-IPC_C 975.000       775.000       0        "RES 10K OHM 1% 1/10W 0603"                    
+R6         RC0603FR-0710KL  TopLayer FP-RC0603-0_55-IPC_C 850.000       825.000       0        "RES 10K OHM 1% 1/10W 0603"                    
+R5         RC0603FR-0710KL  TopLayer FP-RC0603-0_55-IPC_C 575.000       825.000       0        "RES 10K OHM 1% 1/10W 0603"                    
+R4         RC0603FR-07100RL TopLayer FP-RC0603-0_55-MFG   725.000       825.000       0        ""                                             
+R3         RC0603FR-07100RL TopLayer FP-RC0603-0_55-MFG   733.464       925.000       180      ""                                             
+R2         RC0603FR-0710KL  TopLayer FP-RC0603-0_55-IPC_C 850.000       925.000       0        "RES 10K OHM 1% 1/10W 0603"                    
+R1         RC0603FR-0710KL  TopLayer FP-RC0603-0_55-IPC_C 575.000       900.000       0        "RES 10K OHM 1% 1/10W 0603"                    
