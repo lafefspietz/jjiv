@@ -2,15 +2,17 @@
 ![](images/qrcode.png)
 ![](images/qrcode-page.png)
 
-# [JJIV](https://github.com/lafefspietz/jjiv/tree/main/h-bracket)
+# [M4 H Bracket](https://github.com/lafefspietz/jjiv/tree/main/h-bracket)
 
 ![](images/dimensioned-drawing.png)
 
 ![](images/solidworks-render.png)
 
-[Quarter inch 4-40 brass socket head screw](https://www.mcmaster.com/93465A106/)
+[Quarter inch 4-40 brass socket head screw, McMaster-Carr part number 93465A106](https://www.mcmaster.com/93465A106/)
 
 [![](images/4-40-quarter-inch-screw-drawing.png)](https://www.mcmaster.com/93465A106/)
 
-[![](images/Hex-L-key-3-32nd-drawing.png)]()
+[Ball-End Hex L-Key, McMaster-Carr part number 57185A11](https://www.mcmaster.com/57185A11/)
+
+[![](images/Hex-L-key-3-32nd-drawing.png)](https://www.mcmaster.com/57185A11/)
 
