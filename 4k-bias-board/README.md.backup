@@ -10,9 +10,7 @@
  - [4k-bias-board-bom.xlsx](4k-bias-board-bom.xlsx)
  - [Pick-Place-for-4k-bias-board.txt](Pick-Place-for-4k-bias-board.txt)
  - [4k-bias-board.PcbDoc](4k-bias-board.PcbDoc)
- - [4k-bias-board.PrjPcb](4k-bias-board.PrjPcb)
- - [4k-bias-board.SchDoc](4k-bias-board.SchDoc)
- - [4k-bias-board.step](4k-bias-board.step)
+ - []()
 
 This is a board which sits at 4 kelvin and which reduces noise on the lines with a network of bias resistors. This is the one place in the circuit which finds ground, symmetrically between the twisted pairs.  Voltage wires have 10 k series resistors, heater and thermometer wire just pass through, and the drive is divided by 100 via a symmetric resistive divider.  
 

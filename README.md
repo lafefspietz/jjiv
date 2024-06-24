@@ -1,3 +1,6 @@
+![](images/qrcode.png)
+![](images/qrcode-page.png)
+
 # Josephson Junction IV Curve Tracer System
 
 
@@ -40,7 +43,7 @@ The BUD box is attached to the DIN rail using DIN rail clips available from Digi
    
    - [h-bracket/](h-bracket/)
    - [4k-board-standoff/](4k-board-standoff/)
-   - []()
+   - [4k-bias-board/](4k-bias-board/)
    - []()
    - []()
    - []()
