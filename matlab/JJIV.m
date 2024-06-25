@@ -1,4 +1,3 @@
-
 %
 % A yokogawa drives a voltage divider which divides by 100 and then the
 % device under test.  One volt meter reads out the voltage on the device,
@@ -6,6 +5,47 @@
 % and that's called IV.  I is then calculated from IV and Rbias.  
 %
 
+clear all
+clc
+
+%%
+yoko_GS200 = 2;
+    obj_yoko = instrfind('Type', 'gpib', 'BoardIndex', 7, 'PrimaryAddress', yoko_GS200, 'Tag', '');
+    if isempty(obj_yoko)
+         obj_yoko = gpib('KEYSIGHT', 7, yoko_GS200);
+    else
+        fclose(obj_yoko);
+        obj_yoko = obj_yoko(1);
+    end
+    fopen(obj_yoko);
+%    clear yoko_GS200
+
+%% load voltmeter
+% 
+address_VV = 24;
+    obj_VV = instrfind('Type', 'gpib', 'BoardIndex', 7, 'PrimaryAddress', address_VV, 'Tag', '');
+    if isempty(obj_VV)
+         obj_VV = gpib('KEYSIGHT', 7, address_V);
+    else
+        fclose(obj_VV);
+        obj_VV = obj_VV(1);
+    end
+    fopen(obj_VV);
+ %   clear address_V
+ 
+ %%
+%% load voltmeter
+% 
+address_IV = 26;
+    obj_IV = instrfind('Type', 'gpib', 'BoardIndex', 7, 'PrimaryAddress', address_IV, 'Tag', '');
+    if isempty(obj_IV)
+         obj_IV = gpib('KEYSIGHT', 7, address_I);
+    else
+        fclose(obj_IV);
+        obj_IV = obj_IV(1);
+    end
+    fopen(obj_IV);
+%%
 %% JJIV
 
 JJIV = struct;          % declare a structure
@@ -26,8 +66,6 @@ JJIV.Dmin = -1;         % Drive start voltage
 JJIV.Dmax =  1;         % Drive stop voltage
 
 JJIV.D = JJIV.Dmin:((JJIV.Dmax-JJIV.Dmin)/JJIV.npoints):JJIV.Dmax;% D stands for "drive", this is voltage on the Yokogawa in volts
-
-
 
 %% settings
 VDwellTime = 0;
@@ -127,9 +165,16 @@ grid on
 %%
 
 
-save('pqfile.txt','jsontext','-ascii')
+save('pqfile.txt','jsontext',['-' ...
+    '-json'])
 type('pqfile.txt')
 
+%%
 
-
+%%
+jsontext = jsonencode(JJIV,PrettyPrint=true);
+JJIV.filename = "JJIV_" + JJIV.username + "_" + JJIV.timestamp + ".txt";
+fileID = fopen(JJIV.filename,'w');
+fprintf(fileID,jsontext);
+fclose(fileID);
 
