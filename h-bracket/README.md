@@ -42,7 +42,10 @@ To get these made, you will need the .step file below to get a quote, and the dr
 
 [![](images/Hex-L-key-3-32nd-drawing.png)](https://www.mcmaster.com/57185A11/)
 
+[M4 10 mm brass screw, McMaster-Carr part number 90349A109](https://www.mcmaster.com/90349A109/)
 
 [![](images/M4-10mm-brass-screw.png)](https://www.mcmaster.com/90349A109/)
+
+[3mm hex L key, McMaster-Carr part number 6958A13](https://www.mcmaster.com/6958A13/)
 
 [![](images/Hex-L-key-3mm-drawing.png)](https://www.mcmaster.com/6958A13/)
