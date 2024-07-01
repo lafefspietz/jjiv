@@ -14,7 +14,7 @@ The H bracket can be slid around and mounted in any orientation or position in t
 
 The H bracket is so named because it resembles the capital letter "H".
 
-Several of these were ordered from PcbWay in the spring of 2024 at NIST.  In our initial design, however, we mistakenly designed the slots for M3 screws and had to modify them in the machine ship after the fact. 
+Several of these were ordered from PcbWay in the spring of 2024 at NIST.  In our initial design, however, we mistakenly designed the slots for M3 screws and had to modify them in the machine ship after the fact. The corrected slot size is close enough to 3/16 of an inch that it was possible to use a 3/16 inch end mill to cut out the slots with a single cut on the milling machine.
 
 These brackets are designed to be connected to the rest of an experiment via quarter inch 4-40 socket cap screws like the [brass ones from McMaster here](https://www.mcmaster.com/57185A11/). The screws are inset into the holes so that heads disappear, allowing the bracket to sit flush against the plate in the fridge with the heads facing the plate.   
 
