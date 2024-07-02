@@ -16,8 +16,8 @@
 
 ## Electrical Elements
 
- - One [Yokogawa GS200 DC Voltage / Current Source](https://tmi.yokogawa.com/us/solutions/products/generators-sources/source-measure-units/gs200/)
- - Two [Keithley 2010 digital multimeters](https://www.tek.com/en/products/keithley/digital-multimeter/2010-series)
+ - One [Yokogawa GS200 DC Voltage / Current Source](source/)
+ - Two [Volt Meters](meter/)
  - [Banana Cables](banana/)
  - [Warm Board](warm-board/)
  - [DB25 to Fischer Fridge Cable](fridge-cable/)
