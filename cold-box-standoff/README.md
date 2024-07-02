@@ -4,6 +4,8 @@
 
 # Cold Box Standoff
 
+![](images/cold-box-standoff-qrcode.png)
+
 ![](images/dimensioned-drawing.png)
 
  - [cold-box-standoff.SLDDRW](cold-box-standoff.SLDDRW)

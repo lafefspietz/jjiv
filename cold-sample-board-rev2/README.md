@@ -1,6 +1,6 @@
 ## [Back to JJIV](../)
 
-![](images/qrcode.png)
+![](images/cold-sample-board-rev2-qrcode.png)
 
 ![](images/altium-screenshot.png)
 
