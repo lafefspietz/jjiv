@@ -1,5 +1,8 @@
 ![](images/qrcode.png)
 ![](images/qrcode-page.png)
+![](images/qrcode-array.png)
+
+
 ![](https://upload.wikimedia.org/wikipedia/commons/d/dd/I-V_characteristics_of_Josephson_Junction.JPG)
 # JJIV: Josephson Junction IV Curve Tracer System
 
