@@ -1,6 +1,6 @@
 ## [Back to JJIV](../)
 
-![](images/warm-board-back-qrcode.png)
+![](images/warm-board-qrcode.png)
 
 # Warm Board
 
