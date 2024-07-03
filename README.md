@@ -8,6 +8,7 @@
 
 [Open source hardware instrument](https://github.com/lafelabs/OSHI) for measuring the current-voltage characteristics(IV curves) of [Josephson Junctions](https://en.wikipedia.org/wiki/Josephson_effect) via a true symmetric twisted pair measurement.  
 
+The story behind this system can be read in the [story Readme here](story/README.md).
 
 ## Mechanical elements
 
