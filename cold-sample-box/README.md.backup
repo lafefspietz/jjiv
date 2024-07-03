@@ -4,7 +4,7 @@
 
 # Cold Sample Box
 
-This board closes directly over the bare copper on the circuit board, and the soldermask covering the lines going into the sample space.  There is about 1 mm vertical distance in the cavity where the samples are placed.  RF absorbent foam can be used over the RC line filters in the [cold sample board](../cold-sample-board-rev2/) to further block very high frequency signals. 
+This metal box closes directly over the bare copper on the circuit board, and the soldermask covering the lines going into the sample space.  There is about 1 mm vertical distance in the cavity where the samples are placed.  RF absorbent foam can be used over the RC line filters in the [cold sample board](../cold-sample-board-rev2/) to further block very high frequency signals. 
 
 This enclosure aims to be a very cold and dark space with effective heat sinking to the base of a dilution refrigerator.  The two parts are held together with 2-56 screws, and are attached to the [cold box standoff](../cold-box-standoff/) by 4-40 screws.  
 
