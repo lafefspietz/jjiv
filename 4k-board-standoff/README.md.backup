@@ -6,6 +6,8 @@
 
 # [4 kelvin board standoff](https://github.com/lafefspietz/jjiv/tree/main/4k-board-standoff)
 
+This is the machined brass standoff which connects the [H Bracket](../h-bracket/) with the [../4k-bias-board/].  It has 4-40 threaded holes which are used for both of these connections.  To order these from a machine shop you will need the .pdf and .step files below.  
+
 ![](images/installation-4k.jpg)
 
 ## Files
