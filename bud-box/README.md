@@ -9,13 +9,13 @@
  - [Rack Mount DIN rail from Amazon](https://www.amazon.com/WatchfulEyE-Mounting-Bracket-Aluminum-Oxidation/dp/B08F4WQX1Z)
  - [Din rail clips](https://www.digikey.com/en/products/detail/phoenix-contact/1201578/290934)
  - [Din rail clip screws](https://www.amazon.com/uxcell-100pcs-Stainless-Tapping-Screws/dp/B01M0P3EUK)
- - [4/40 standoffs](https://www.mcmaster.com/91075A462/)
- - [Isolated BNC feedthrough](https://www.digikey.com/en/products/detail/amphenol-rf/112431/1011725)
- - [25 pin DSUB board mount/panel connector]()
- - [5 volt relay]()
- - [4 position Selector Switch]() 
- - [Banana Jacks]()
- - [Banana plug wires]()
+ - [2 4/40 standoffs](https://www.mcmaster.com/91075A462/)
+ - [1 Isolated BNC feedthrough](https://www.digikey.com/en/products/detail/amphenol-rf/112431/1011725)
+ - [1 25 pin DSUB board mount/panel connector](https://www.digikey.com/en/products/detail/assmann-wsw-components/A-DF-25-PP-Z/1241794)
+ - [18 5 volt relay from digikey](https://www.digikey.com/en/products/detail/comus-international/3570-1331-053/7497099)
+ - [4 position Selector Switch](https://www.digikey.com/en/products/detail/c-k/A10405RNZQ/3751696) 
+ - [6 Banana Jacks](https://www.digikey.com/en/products/detail/cinch-connectivity-solutions-johnson/108-0907-001/5932)
+ - [6 Banana plug wires](https://www.digikey.com/en/products/detail/pomona-electronics/B-12-4/737916)
  - [3d printed switch knob](knob.stl)
 
 
@@ -54,4 +54,12 @@
 
 ## Files
 
+ - [AN-1304-A-lid-machined.pdf](AN-1304-A-lid-machined.pdf)
+ - [AN-1304-A-machined-box.STEP](AN-1304-A-machined-box.STEP)
+ - [AN-1304-A-machined-box.SLDPRT](AN-1304-A-machined-box.SLDPRT)
+ - [AN-1304-A-lid-machined.SLDDRW](AN-1304-A-lid-machined.SLDDRW)
+ - [BUD-CU-347-base-cutouts.pdf](BUD-CU-347-base-cutouts.pdf)
+ - [BUD-CU-347-base-cutouts.SLDDRW](BUD-CU-347-base-cutouts.SLDDRW)
+ - [BUD-CU-347-base-cutouts.SLDPRT](BUD-CU-347-base-cutouts.SLDPRT)
+ - [BUD-CU-347-base-cutouts.STEP](BUD-CU-347-base-cutouts.STEP)
 
