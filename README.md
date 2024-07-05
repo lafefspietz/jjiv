@@ -2,6 +2,8 @@
 ![](images/qrcode-page.png)
 ![](images/qrcode-array.png)
 
+ - [readme reader](readme/readme-reader.html)
+ - [readme editor](readme/readme-editor.html)
 
 ![](https://upload.wikimedia.org/wikipedia/commons/d/dd/I-V_characteristics_of_Josephson_Junction.JPG)
 # JJIV: Josephson Junction IV Curve Tracer System
