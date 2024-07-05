@@ -16,7 +16,6 @@ github.com/lafelabs/OSHI/README.md
 
     <script src = "https://cdnjs.cloudflare.com/ajax/libs/showdown/1.8.6/showdown.js"></script>
 
-<!--       un comment to use math
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
         <script>
@@ -29,15 +28,17 @@ github.com/lafelabs/OSHI/README.md
                 }
             });//			MathJax.Hub.Typeset();//tell Mathjax to update the math
         </script>
-    -->
 
-    
 </head>
 <body>    
 <div id = "scrollscroll"></div>
-<a id = "editlink" href= "readmeeditor.html">EDIT</a>
+<a id = "editlink" href= "readme-editor.html">README EDITOR</a>
 
 <a id = "homelink" href= "index.html">HOME</a>
+
+
+<div id = "title"></div>
+<div id= "dirscroll"></div>
 
 <script>
 
@@ -53,6 +54,8 @@ converter.setOption('tables', 'true')
 filename = "README.md";
 loadscroll("README.md");
 
+document.getElementById("title").innerHTML = filename;
+
 
 function loadscroll(scrollname){
     filename = scrollname;
@@ -66,7 +69,7 @@ function loadscroll(scrollname){
             rawhtml = converter.makeHtml(scroll);
             document.getElementById("scrollscroll").innerHTML = rawhtml;
 
-            //			MathJax.Hub.Typeset();//tell Mathjax to update the math
+            			MathJax.Hub.Typeset();//tell Mathjax to update the math
     //			MathJax.Hub.Typeset();//tell Mathjax to update the math
         }
     };
@@ -75,6 +78,30 @@ function loadscroll(scrollname){
     //MathJax.Hub.Typeset();//tell Mathjax to update the math
 }
 
+
+
+readmefiles = [];
+var httpc9 = new XMLHttpRequest();
+    httpc9.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+        readmefiles = JSON.parse(this.responseText);
+        for(var index = 0;index < readmefiles.length;index++) {
+            if(readmefiles[index] != "php" && readmefiles[index] != "data"){
+                var newdiv = document.createElement("DIV");
+                newdiv.innerHTML = "../" +  readmefiles[index] + "/README.md";
+                newdiv.className = "readmelink";
+                document.getElementById("dirscroll").appendChild(newdiv);
+                newdiv.onclick = function(){
+                    loadscroll(this.innerHTML);
+                    document.getElementById("title").innerHTML = this.innerHTML;
+
+                }
+            }
+        }
+    }
+};
+httpc9.open("GET", "updir.php", true);
+httpc9.send();
 
 </script>
 <style>
@@ -94,9 +121,45 @@ a{
     position:absolute;
     overflow:scroll;
     font-size:2em;
+    width:50%;
     display:none;
     z-index:-3;
 }
+#dirscroll{
+    padding-left:1em;
+    padding-right:1em;
+    right:0px;
+    bottom:0px;
+    position:absolute;
+    overflow:scroll;
+    font-size:2em;
+    top:4em;
+    width:40%;
+    z-index:-3;
+}
+#title{
+    position:absolute;
+    right:0px;
+    top:1.5em;
+    font-size:2em;
+    z-index:-1;
+}
+
+.readmelink{
+    border:solid;
+    border-radius:10px;
+    padding: 5px 5px 5px 5px;
+    margin-top:5px;
+    margin-bottom:5px;
+    cursor:pointer;
+}
+.readmelink:hover{
+    background-color:green;
+}
+.readmelink:active{
+    background-color:yellow;
+}
+
 pre{
     overflow:scroll;
 }
@@ -112,14 +175,14 @@ h1,h2,h3,h4{
 
 #editlink{
     position:absolute;
-    right:0px;
+    right:0em;
     top:0px;
     font-size:2em;
 }
 #homelink{
     position:absolute;
-    right:0px;
-    top:4em;
+    right:10em;
+    top:0px;
     font-size:2em;
 }
 
