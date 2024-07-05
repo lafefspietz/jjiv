@@ -5,6 +5,8 @@
 
 # [Bud Box](https://github.com/lafefspietz/jjiv/tree/main/bud-box)
 
+[warm Board](../warm-board/)
+
  - [CU-347 Bud Box from Hawkusa](https://www.hawkusa.com/manufacturers/bud/enclosures/cu-347)
  - [Rack Mount DIN rail from Amazon](https://www.amazon.com/WatchfulEyE-Mounting-Bracket-Aluminum-Oxidation/dp/B08F4WQX1Z)
  - [Din rail clips](https://www.digikey.com/en/products/detail/phoenix-contact/1201578/290934)
@@ -17,6 +19,7 @@
  - [6 Banana Jacks](https://www.digikey.com/en/products/detail/cinch-connectivity-solutions-johnson/108-0907-001/5932)
  - [6 Banana plug wires](https://www.digikey.com/en/products/detail/pomona-electronics/B-12-4/737916)
  - [3d printed switch knob](knob.stl)
+ - [Color coded solid hookup wire](https://www.digikey.com/en/products/detail/adafruit-industries-llc/1311/6198255)
 
 
 ![](images/base-dimensioned-drawing.png)
@@ -61,5 +64,5 @@
  - [BUD-CU-347-base-cutouts.pdf](BUD-CU-347-base-cutouts.pdf)
  - [BUD-CU-347-base-cutouts.SLDDRW](BUD-CU-347-base-cutouts.SLDDRW)
  - [BUD-CU-347-base-cutouts.SLDPRT](BUD-CU-347-base-cutouts.SLDPRT)
- - 
+ - [BUD-CU-347-base-cutouts.STEP](BUD-CU-347-base-cutouts.STEP)
 
