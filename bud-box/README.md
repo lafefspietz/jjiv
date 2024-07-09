@@ -56,10 +56,9 @@
 
 ## Files
 
- - [AN-1304-A-lid-machined.pdf](AN-1304-A-lid-machined.pdf)
- - [AN-1304-A-machined-box.STEP](AN-1304-A-machined-box.STEP)
- - [AN-1304-A-machined-box.SLDPRT](AN-1304-A-machined-box.SLDPRT)
- - [AN-1304-A-lid-machined.SLDDRW](AN-1304-A-lid-machined.SLDDRW)
+ - [BUD-CU-347-LID.pdf](AN-1304-A-lid-machined.pdf)
+ - [BUD-CU-347-LID.SLDPRT](AN-1304-A-machined-box.SLDPRT)
+ - [BUD-CU-347-LID.SLDDRW](BUD-CU-347-LID.SLDDRW)
  - [BUD-CU-347-base-cutouts.pdf](BUD-CU-347-base-cutouts.pdf)
  - [BUD-CU-347-base-cutouts.SLDDRW](BUD-CU-347-base-cutouts.SLDDRW)
  - [BUD-CU-347-base-cutouts.SLDPRT](BUD-CU-347-base-cutouts.SLDPRT)

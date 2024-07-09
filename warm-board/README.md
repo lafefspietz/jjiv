@@ -6,6 +6,10 @@
 
 ![](images/warm-board-back.png)
 
+Warm Board is the board that goes inside the [Bud Box](../bud-box) which connects the DB25 connector which goes to the dilution refrigerator with the drive, current leads and voltage leads by way of a network of electromechanical relays.  
+
+
+
 ## Files
 
  - [warm-pcb-gerbers.zip](warm-pcb-gerbers.zip)
